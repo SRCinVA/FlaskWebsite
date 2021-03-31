@@ -12,7 +12,7 @@ def home():
 
 @app.route('/about/') # a decorator for the route to the homepage
 def about(): # the functions have to be different for each method
-    return "This is the About page."
+    return render_template("about.html")
 
 if __name__ == "__main__": # Python assigns the name of "main" to the file.
     app.run(debug=True) # means "if name == main, then go ahead and run the app."
