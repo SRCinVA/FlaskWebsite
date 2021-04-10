@@ -24,7 +24,6 @@ header h1.logo{
 header h1.logo:hover{
     color: #fff;
     text-decoration: none;
-
 }
 
 .container {
@@ -37,11 +36,49 @@ div.home{
     background-color: #E6E6FA;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
-           -border-radius: 6px;
+            border-radius: 6px;
 }
 
-h2 {font-size: 3em;
+div.home {
+    padding: 10px 0 30px 0;
+    background-color: #E6E6FA;
+    -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+
+h2 {
+    font-size: 3em;
     margin-top: 40px;
     text-align: center;
     letter-spacing: -2px;
 }
+
+h3 {
+    font-size: 1.7;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #999;
+}
+
+
+.menu {
+    float: right;
+    margin-top: 8px;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li + li {
+    margin-left: 35px;
+}
+
+.menu li a {
+    color: #444;
+    text-decoration: nones;
+}
+
